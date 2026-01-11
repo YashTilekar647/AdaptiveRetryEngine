@@ -1,0 +1,26 @@
+{"event": "retry", "error": "CONNECTION_RESET", "failure_type": "TRANSIENT", "delay": 2, "attempt": 1, "timestamp": "2026-01-11T18:33:45.886707"}
+{"event": "retry", "error": "429", "failure_type": "RATE_LIMITED", "delay": 4, "attempt": 2, "timestamp": "2026-01-11T18:33:46.897566"}
+{"event": "retry", "error": "CONNECTION_RESET", "failure_type": "TRANSIENT", "delay": 8, "attempt": 3, "timestamp": "2026-01-11T18:33:47.899756"}
+{"event": "retry", "error": "CONNECTION_RESET", "failure_type": "TRANSIENT", "delay": 16, "attempt": 4, "timestamp": "2026-01-11T18:33:48.901185"}
+{"event": "permanent_failure", "error": "400", "timestamp": "2026-01-11T18:33:49.903927"}
+{"event": "retry", "error": "429", "failure_type": "RATE_LIMITED", "delay": 2, "attempt": 1, "timestamp": "2026-01-11T18:34:07.982289"}
+{"event": "retry", "error": "TIMEOUT", "failure_type": "TRANSIENT", "delay": 4, "attempt": 2, "timestamp": "2026-01-11T18:34:09.047460"}
+{"event": "retry", "error": "CONNECTION_RESET", "failure_type": "TRANSIENT", "delay": 8, "attempt": 3, "timestamp": "2026-01-11T18:34:10.057075"}
+{"event": "permanent_failure", "error": "400", "timestamp": "2026-01-11T18:34:11.063009"}
+{"event": "retry", "error": "500", "failure_type": "SYSTEMIC", "delay": 120, "attempt": 1, "timestamp": "2026-01-11T18:35:12.985518"}
+{"event": "retry", "error": "TIMEOUT", "failure_type": "TRANSIENT", "delay": 4, "attempt": 2, "timestamp": "2026-01-11T18:35:13.989730"}
+{"event": "retry", "error": "TIMEOUT", "failure_type": "TRANSIENT", "delay": 8, "attempt": 3, "timestamp": "2026-01-11T18:35:14.992008"}
+{"event": "retry", "error": "500", "failure_type": "SYSTEMIC", "delay": 120, "attempt": 4, "timestamp": "2026-01-11T18:35:15.994517"}
+{"event": "permanent_failure", "error": "400", "timestamp": "2026-01-11T18:35:16.995858"}
+{"event": "retry", "error": "429", "failure_type": "RATE_LIMITED", "delay": 2, "attempt": 1, "timestamp": "2026-01-11T21:39:18.000413"}
+{"event": "retry", "error": "500", "failure_type": "SYSTEMIC", "delay": 120, "attempt": 2, "timestamp": "2026-01-11T21:39:19.002891"}
+{"event": "permanent_failure", "error": "400", "timestamp": "2026-01-11T21:39:20.004322"}
+{"event": "retry", "error": "500", "failure_type": "SYSTEMIC", "delay": 120, "attempt": 1, "timestamp": "2026-01-11T22:43:36.616310"}
+{"event": "retry", "error": "500", "failure_type": "SYSTEMIC", "delay": 120, "attempt": 2, "timestamp": "2026-01-11T22:43:39.608110"}
+{"event": "retry", "error": "500", "failure_type": "SYSTEMIC", "delay": 120, "attempt": 3, "timestamp": "2026-01-11T22:43:43.415726"}
+{"event": "retry", "error": "TIMEOUT", "failure_type": "TRANSIENT", "delay": 16, "attempt": 4, "timestamp": "2026-01-11T22:43:47.515750"}
+{"event": "retry", "error": "500", "failure_type": "SYSTEMIC", "delay": 120, "attempt": 5, "timestamp": "2026-01-11T22:43:50.584986"}
+{"event": "retry", "error": "500", "failure_type": "SYSTEMIC", "delay": 120, "attempt": 6, "timestamp": "2026-01-11T22:43:54.285967"}
+{"event": "circuit_open", "timestamp": "2026-01-11T22:43:58.521756"}
+{"event": "permanent_failure", "error": "HTTP_503", "failure_type": "PERMANENT", "timestamp": "2026-01-11T18:18:49.516619"}
+{"event": "permanent_failure", "error": "HTTP_500", "failure_type": "PERMANENT", "timestamp": "2026-01-11T18:30:04.079883"}
